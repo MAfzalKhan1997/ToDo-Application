@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"> -->
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/regstyle.css">
+
+</head>
+<body>
+
+    <div>
+        <h1>Sign Up</h1>
+        
+            <input type="text" placeholder="Username" id="name"><br>
+            <input type="number" placeholder="Number" id="number" maxlength="11"><br>
+            <input type="email" placeholder="Email" id="email"><br>
+            <input type="Password" placeholder="Password" id="word"><br>
+            <button onClick="submit()"><i class="fa fa-send"></i> Register</button>
+        <a href="#">Already have an Account? &nbsp; &nbsp; </a><a href="index.html"><i class="fa fa-sign-in"></i> Sign In</a>
+    </div>
+
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+<script src="js/signUp.js"></script>
+</html>

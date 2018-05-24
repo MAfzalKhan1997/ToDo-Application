@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SignIn</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"> -->
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/regstyle.css">
+
+</head>
+<body>
+
+    <div>
+        <h1>Welcome</h1>
+        
+        <p>Lot's of Work ToDo? Let's make a List!</p>    
+        <input type="email" placeholder="Email" id="userEmail"><br>
+        <input type="Password" placeholder="Password" id="userPassword"><br>
+        <button id="signin" onclick="login();"><i class="fa fa-sign-in"></i> Sign In</button>
+        <a href="ToDo.html" ><i class="fa fa-home"></i> Go to App</a>
+        <a href="#" id="def">|</a>
+        <a href="signUp.html" ><i class="fa fa-send"></i> Register</a>
+    </div>
+ 
+
+</body>
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js')
+            .then(function () {
+                console.log('Service Worker Registered');
+            });
+    }
+</script> 
+<script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+<script src="js/login.js"></script>
+</html>

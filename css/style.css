@@ -1,0 +1,169 @@
+ body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background: url('../images/back3.jpg')  ;
+    /* -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover; */
+    /* background-repeat: repeat-y; */
+    /* background-attachment: fixed; */
+    background-size: 100% 1000%;
+    text-align: center;
+}
+
+ 
+.logoutbtn{
+
+    color: black;
+    font-size: 40px;
+    padding: 0px;
+    background: none;
+    outline: none;
+    border: none;
+    /* border: 1px solid black; */
+    margin-top: -3%;
+    margin-left: 3%;
+    float: left; 
+}
+
+/* .logoutbtn:hover{
+    transition: 0.5s;
+    font-size: 40px;
+} */
+
+@media (max-width:768px) { .logoutbtn { 
+    font-size: 33px;
+}
+}
+
+@media (max-width:500px) { .logoutbtn { 
+    font-size: 27px;
+ }
+}
+
+p{
+     
+    width: 60%;
+    font-size: 60px;
+    padding: 0px;
+    /* margin:50px 0px 30px 0px; */
+    margin:5% 0% 3% 0%;
+}
+@media (max-width:768px) { p { 
+    font-size: 50px;
+}
+}
+
+@media (max-width:500px) { p { 
+    font-size: 35px;
+}
+}
+
+input{
+    color: white;
+    font-family: Courier New, Courier, monospace;
+    font-size: 30px;
+    text-transform: capitalize;
+    width: 65%;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 5px 0px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+}
+
+@media (max-width:768px){input{
+    width:80%;
+    font-size: 25px;
+}
+}
+
+@media (max-width:500px) {input{
+    width:90%;
+    font-size: 20px;
+}
+}
+
+::-webkit-input-placeholder{
+    color :rgba(255, 255, 255, 0.582);   
+    font-family: Courier New, Courier, monospace;
+}
+
+.addbtn , .delallbtn{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 7%;
+    background: none;
+    outline: none;
+    border: 1px solid black;
+}
+
+@media (max-width:500px){.addbtn , .delallbtn{
+     
+    font-size: 15px;
+    padding: 8px;
+ }
+}
+
+div .tasks{
+    width: 65%;
+    margin: 0px auto;
+}
+
+@media (max-width:768px){div .tasks{
+    width:80%; 
+ }
+}
+
+@media (max-width:500px){div .tasks{
+    width:90%;
+ }
+}
+
+div ol li{
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-family: Courier New, Courier, monospace;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    border-bottom: 1px solid white;
+    /* padding-right: 10px; */
+}
+
+@media (max-width:768px){div ol li{
+     
+    font-size: 22px;
+ }
+}
+
+@media (max-width:500px){div ol li{
+     
+    font-size: 17px;
+    padding: 7px 0px;
+ }
+}
+
+.addbtn:hover , .delallbtn:hover{
+    opacity: 0.9;
+    background:rgba(0, 0, 0, 0.096);
+    transition: 0.7s;
+}
+
+.trashbutton{
+    background: none;
+    outline: none;
+    border: none;
+    float: right; 
+    /* margin-left: 10px; */
+}
+/* .editbutton{
+    background: none;
+    outline: none;
+    border: none;
+    float: right;   
+} */
